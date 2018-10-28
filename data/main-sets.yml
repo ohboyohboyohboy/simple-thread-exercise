@@ -1,0 +1,45 @@
+---
+- name: Set 1
+  projects:
+    - location: low
+      start_date: 9/1/15
+      end_date: 9/3/15
+
+- name: Set 2
+  projects:
+    - location: low
+      start_date: 9/1/15
+      end_date: 9/1/15
+    - location: high
+      start_date: 9/2/15
+      end_date: 9/6/15
+    - location: low
+      start_date: 9/6/15
+      end_date: 9/8/15
+
+- name: Set 3
+  projects:
+    - location: low
+      start_date: 9/1/15
+      end_date: 9/3/15
+    - location: high
+      start_date: 9/5/15
+      end_date: 9/7/15
+    - location: high
+      start_date: 9/8/15
+      end_date: 9/8/15
+
+- name: Set 4
+  projects:
+    - location: low
+      start_date: 9/1/15
+      end_date: 9/1/15
+    - location: low
+      start_date: 9/1/15
+      end_date: 9/1/15
+    - location: high
+      start_date: 9/2/15
+      end_date: 9/2/15
+    - location: high
+      start_date: 9/2/15
+      end_date: 9/3/15
