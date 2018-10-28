@@ -28,8 +28,8 @@ module SimpleThreadExercise
       def calculate_cost
         return 0.0 if projects.empty?
 
-        projects = self.ordered_projects
-        counts   = Hash.new { |h, location| h[location] = [ 0, 0 ] }
+        projects         = self.ordered_projects
+        counts           = Hash.new { |h, location| h[location] = [ 0, 0 ] }
 
         projects_on_day  = ->(date) { projects.select { |pr| date.between?(pr.start, pr.end) } }
         location_for_day = ->(date) { projects_on_day[date].max_by(&:location_rank).location }

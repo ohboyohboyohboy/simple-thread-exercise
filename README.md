@@ -50,12 +50,6 @@
       Project 3: High Cost City Start Date: 9/2/15 End Date: 9/2/15
       Project 4: High Cost City Start Date: 9/2/15 End Date: 9/3/15
 
-## Unresolved Questions
-
-* If both a high cost city project and a low cost city project land on the
-  same day, how should the day be charged? By the most expensive?
-
-
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

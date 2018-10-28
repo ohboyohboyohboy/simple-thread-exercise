@@ -22,5 +22,10 @@ module SimpleThreadExercise
     PROJECT_COSTS_BY_LOCATION[HIGH_COST_CITY] = [ 55.0, 85.0 ].freeze
 
     PROJECT_COSTS_BY_LOCATION.freeze
+
+    LOCATION_RANKS                 = Hash.new(-1)
+    LOCATION_RANKS[LOW_COST_CITY]  = 1
+    LOCATION_RANKS[HIGH_COST_CITY] = 2
+    LOCATION_RANKS.freeze
   end
 end

@@ -29,15 +29,7 @@ module SimpleThreadExercise
       end
 
       def location_rank
-        case self.location
-        when HIGH_COST_CITY then 2
-        when LOW_COST_CITY  then 1
-        else 0
-        end
-      end
-
-      def includes_day?(date)
-        date.between?(self.start, self.end)
+        LOCATION_RANKS[self.location]
       end
     end
   end
