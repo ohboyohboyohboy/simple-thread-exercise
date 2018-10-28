@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "simple/thread/exercise"
+require "simple_thread_exercise"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
