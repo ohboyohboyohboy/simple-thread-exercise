@@ -1,20 +1,13 @@
 # SimpleThread::Exercise
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'simple-thread-exercise'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install simple-thread-exercise
+## Usage
+    rvm use # or use a ruby version 2.3.6 or greater
+    bundle install
+    bundle exec ruby ./exe/simple-thread-exercise < data/main-sets.yml
+    # Set 1 Cost: $165.00
+    # Set 2 Cost: $590.00
+    # Set 3 Cost: $445.00
+    # Set 4 Cost: $185.00
 
 ## Exercise Prompt
 
@@ -57,9 +50,11 @@ Or install it yourself as:
       Project 3: High Cost City Start Date: 9/2/15 End Date: 9/2/15
       Project 4: High Cost City Start Date: 9/2/15 End Date: 9/3/15
 
-## Usage
+## Unresolved Questions
 
-TODO: Write usage instructions here
+* If both a high cost city project and a low cost city project land on the
+  same day, how should the day be charged? By the most expensive?
+
 
 ## License
 
