@@ -8,5 +8,6 @@ require 'virtus'
 require "simple_thread_exercise/version"
 
 module SimpleThreadExercise
-  autoload :Models,    'simple_thread_exercise/models'
+  autoload :Constants,      'simple_thread_exercise/constants'
+  autoload :Models,         'simple_thread_exercise/models'
 end
