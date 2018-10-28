@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "simple/thread/exercise/version"
+require "simple_thread_exercise/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "simple-thread-exercise"
-  spec.version       = Simple::Thread::Exercise::VERSION
+  spec.version       = SimpleThreadExercise::VERSION
   spec.authors       = ["Kyle Yetter"]
   spec.email         = ["kyle@ohboyohboyohboy.org"]
 
@@ -32,4 +32,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_runtime_dependency "virtus", "~> 1.0"
 end
